@@ -28,7 +28,7 @@ const App = () => {
 		<Route path='/login' component={Login} />
 		<Route path='/lobby' component={Lobby} />
 		<Route path='/room/:id' component={Room} />
-		<Route component={Login} />
+		<Route path='/' component={Login} />
 	    </Switch>
 	</React.Fragment>	
     );
